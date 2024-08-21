@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    margin-bottom: 800px;
+}
+nav{
+    background-color:darkorange;
+    position: fixed;
+    top:0 ;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+.main-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow{
+    margin-top:30px;
+}
+p{
+    font-weight: bold;
+    font-size: large;
+}
+a{
+    display: flex;
+    margin-right: auto;
+    height: 28px;
+    width: 28px;
+}
+h2,img{
+    margin-right: 480px;
+}

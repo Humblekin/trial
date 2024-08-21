@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    margin-bottom:200px;
+}
+nav{
+    background-color:darkorange;
+    position: fixed;
+    top: 0;
+    right:0 ;
+    left: 0;
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding-left:40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 18px;
+    background-color: cyan;
+    color: black;
+    cursor: pointer; 
+    display: flex;
+    
+}
+.first-page{
+    background-color: blue;
+}
+#displayer{
+    display: none;
+    
+}
+#displayer,h2{
+  margin-top: 50px;
+}

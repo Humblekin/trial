@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CHACHING.css">
+</head>
+<body>
+    <header>
+      <div class="nav">
+         <h1 style="display: inline-block;">CHA-CHING <span class="afri">AFRICA</span></h1>
+         <img src="Cha-Ching_Logo.png" alt="">
+         <img src="menu_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="menu" onclick="men()" width="20px" height="">
+
+      </div>
+      
+      
+         <ul class="slide">
+            <li onclick="hide()"><img src="close_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="fun"></li>
+         <li><a href="chachinquiz.html">CHA-CHING Quiz</a></li>
+         <li><a href="">About CHA-CHING</a></li> 
+         <li><a href="chachinvid.html">CHA-CHING Videos</a></li>
+         <li></li>
+         
+         
+         </ul>
+    </header>
+      <Center>
+   <div class="main-div" style="margin-top: 100px;">
+      <img src="Pepper.png" alt="" class="pep"><span>PEPPER</span>
+      <div class="third-div">
+         <pre>
+            <p>Keyboards and Vocals</p>
+            Pepper is a big spender and wants everything she sees!She is not
+            very good at planning but eventually she learns an important
+            lessons about how to slow down and think about what she is 
+            buying and why.
+            Favourite pastime:  Pepper likes to hang out with her friends
+            Favourite colour:   pink
+            Favourite food:     Strawberries and cream
+         </pre>
+      </div>
+     </div><br><br>
+  <div >
+     <img src="justin.jpeg" alt="" class="justin"><span class="jus">JUSTIN</span>
+     <div class="first-div">
+      <pre>
+         <p>Guitar and Vocals</p>
+         Justin has lots of great business ideas.A positive,self-
+         confident person,justin brings ideas to life by using initiative,
+         determination, and drive.He also does it by starting with a single
+         idea,understanding what people want and need and making that idea
+         reality.
+         Favourite pastime:  Justin loves to watch cartoons
+         Favourite colour:    Green
+         Favourite food:      Seafood
+      </pre>
+     </div>
+  </div>
+  <br>
+     <br>
+  <div >
+   <img src="bobby.png" alt="" class="bob"><span>BOBBY</span>
+   <div class="second-div">
+      <pre>
+         <p>Drums and Vocals</p>
+         Bobby is not good at managing money as some of his friends
+         in the band.He is quite good at earning but not as at 
+         planning for his spending.
+         Favourite pastime: Bobby likes to play computer games,
+                            trade cards and read comics
+  
+         Favourite colour:   Blue
+         Favourite food:     Desserts
+  
+      </pre>
+   </div>
+  </div>
+  <br>
+  <br>
+  
+  <br>
+  <br>
+  <div >
+   <img src="Charity.png" alt="" class="charity"><span>CHARITY</span>
+   <div class="fouth-div">
+      <pre>
+         <p>Singer</p>
+         Charity loves to give and share and is always looking for ways to 
+         help out those in need whether it's by giving money or her time
+         and talents.
+         Favourite pastime: Charity loves gardening
+         Favourite color:   Yellow
+         Favourite food:    Ice cream and cuptakes
+      </pre>
+   </div>
+  </div>
+  <br><br>
+  <div >
+   <img src="zul.png" alt="" class="zul"><span>ZUL</span>
+   <div class="fifth-div">
+      <pre>
+         <p>Rhythm Guitar and Vocals</p>
+         Zul loves cars and has one aim in life:to become racing car
+         driver.He is sensible and determimed; in order to archieve this,
+         he knows needs to learn to save his money.
+         Favourite pastime:  Zul goes go-kart racing at the weekend 
+         Favourite color:    Red
+         Favourite food:     Chicken and rice
+      </pre>
+   </div>
+  </div>
+  <br>
+  <div >
+   <img src="prudence.png" alt="" class="pru"><span>PRUDENCE</span>
+   <div class="second-div">
+      <pre>
+        <p>Lead Guitar and Vocals</p>
+        Prudence is wise and practical and as such,makes it a habit 
+        to save momey.She learned early that if she takes some of the 
+        money that she gets and saves it, she can make her dreams for
+        the future come true! As a result,she has been in the good habit
+        of saving 10 per cent of everything she has earned for years.
+        Favourites pastime:  prudence likes to dream of travelling to
+                             exotic locations on holiday
+        Favourite color:  Purple
+        Favourite food:   Pizza
+        
+      </pre>
+   </div>
+   <br>
+   <br>
+  </div>
+  
+</Center>
+   
+  <center><h3>You Can Follow Us On;</h3></center>
+  <br>
+  <div class="media">
+   <div>
+      <a href=""><img src="5296500_fb_social media_facebook_facebook logo_social network_icon.png" alt=""   class="median"></a>
+     </div>
+     <div>
+      <a href=""><img src="5296765_camera_instagram_instagram logo_icon.png" alt="" height="5px"  class="median"></a>
+     </div>
+     <div>
+      <a href=""><img src="5296521_play_video_vlog_youtube_youtube logo_icon.png" alt=""  class="median"></a>
+     </div>
+  </div>
+    <br><br>
+     <center>
+             
+               <h1>Leave a comment about CHA-CHING;</h1>
+               <input type="text" name="" id="input-name" placeholder="enter your name" required><br><br>
+               <textarea name="text-box" id="input-text" rows="5" placeholder="your comment" required></textarea><br><br>
+                <button onclick="result()">submitComment</button>
+             
+      
+   <div id="show-container">
+      
+   </div>
+     </center>
+
+<footer>
+   <ul>
+      <Li>EARN</Li>
+      <li>SAVE</li>
+      <li>SPEND</li>
+      <li>AND</li>
+       <Li>DONATE</Li>
+   </ul>
+</footer>
+
+     <script>
+    function men(){
+       const first=document.querySelector('.slide');
+       first.style.display="flex";
+      }
+      function hide(){
+        const second=document.querySelector('.slide');
+       second.style.display="none";
+      }
+
+       
+           
+         function result(){
+        const inputName=document.getElementById('input-name');
+        inputElement=inputName.value;
+
+     const inputText=document.getElementById('input-text');
+      textElement=inputText.value;
+
+   const todos=[];
+   todos.push('<h4>'+ inputElement +'<h4>' + textElement);
+    
+
+  
+      const fun=document.createElement('div');
+      fun.innerHTML=todos;
+     const todo=document.body.appendChild(fun);
+      
+      document.getElementById('input-name').value='';
+      document.getElementById('input-text').value='';
+
+    }
+
+      
+      
+
+
+        
+      
+   </script>
+</body>
+</html>
