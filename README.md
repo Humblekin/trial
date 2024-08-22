@@ -1,3 +1,4 @@
+                                                **project for JA GHANA COMPANY FROM USA**
 This is just a project am I am creating for a company called JA GHANA
 The main purpose of creating that is, they have a program called cha-ching that educates students about money, correct way of earning money, saving money, spendind money, and donating money.
 At the end of the program,after lecturing various schools teachers on their aim, the teachers will now use what they learn from the workshop to the teach the children.
